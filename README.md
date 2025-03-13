@@ -63,6 +63,9 @@ Le projet a été déployé chez **Scaleway** car cet hébergeur français est r
 - Nécessite JavaScript, pas optimal pour les appareils très limités 🏢
 - Potentiellement énergivore si mal optimisé 🔋
 
+**Reste a faire** :
+- Stocker les images sur le serveur et modifier la partie back / front correspondante qui pour le moment ne charge qu'une url dans le front et stock une url dans la bdd du backend
+
 ## 📜 Conclusion
 Vitrine de Nath est une **vitrine numérique éco-responsable**, pensée pour offrir une expérience fluide tout en limitant son impact environnemental. Grâce à des choix techniques optimisés et une démarche Green IT, ce projet allie **performance** et **sobriété numérique**. 🚀🌍
 
