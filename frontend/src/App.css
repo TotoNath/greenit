@@ -1,0 +1,134 @@
+/* Réinitialisation des marges et padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+/* Bouton Ajouter */
+.add-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-button:hover {
+    background: #218838;
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* Formulaire */
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.add-form input, .add-form button {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 90%;
+}
+
+.add-form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-form button:hover {
+    background: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, #98b7fa, rgba(152, 183, 250, 0.93), #b3c7f3, #e7eefc);
+    background-size: 400% 400%;
+    animation: animatedBackground 10s ease infinite;
+}
+
+.description {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+h2 {
+    color: #000;
+}
+
+.close-btn {
+    color: #000;
+}
+
